@@ -5,4 +5,4 @@
 #### Задание 2.2. [Типовое меню сайта фастфуда](https://jsfiddle.net/EhlisN/b9pc045m/)
 
 ## Основы HTML
-#### Задание 1. [Сервис ремонта мобильных телефонов]
+#### Задание 1. [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-bases%201)
