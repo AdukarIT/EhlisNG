@@ -7,3 +7,7 @@
 ## Основы HTML
 #### Задание 1. [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-bases%201)
 #### Задание 2. [Магазин оргтехники](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-bases%202)
+
+## Формы. Ссылочные протоколы
+#### Задание 1. [Форма для заказа пиццы](https://jsfiddle.net/EhlisN/0gnr3d58/)
+#### Задание 2. [Форма отзыва на товар](https://jsfiddle.net/EhlisN/234f5gh8/)
