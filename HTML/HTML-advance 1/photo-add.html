@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Соцсеть фотографий и видео</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt='LogoInstagram' height="100">
+		<h1>Instagram</h1> 
+	</header>
+    <main>
+    	<a href="feed.html">Вернуться в ленту</a>
+    	<h2>Создать новый пост</h2>
+    	<form action="feed.html" method="GET">
+    	   <p>Ваш текст:</p>
+    	   <textarea rows="5" cols="40" placeholder="Ваше описание">
+    	   </textarea>
+    	   <br><br>
+    	   <label for="img">Вставить картинку:</label>
+    	   <input type="file" name="img" id="img" accept="image/jpeg,image/png">
+    	   <br><br>
+    	   <label for="video">Вставить видео:</label>
+    	   <input type="file" name="video" id="video" accept="video/mp4">
+    	   <br><br>
+    	   <input type="submit" name="submit" value="Отправить">
+    	</form>
+    </main>
+</body>	
+</html>

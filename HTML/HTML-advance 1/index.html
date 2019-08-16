@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Соцсеть фотографий и видео</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt='LogoInstagram' height="100">
+		<h1>Instagram</h1> 
+	</header>
+    <main>
+        <form action='feed.html' method="GET">
+    	 <fieldset>
+    		<legend>Вход на страницу:</legend>
+    		Email: <input type="Email" name="Email" placeholder="Ваш Email" required>
+    		<br><br>
+    		Пароль: <input type="password" name="psw" placeholder="Ваш пароль" required>
+    		<br><br>
+    		<button type="submit" name="join">Войти</button>
+    	 </fieldset>
+    	</form>
+    	<form action='feed.html' method="GET">
+    	 <fieldset>
+    		<legend>Регистрация</legend>
+    		Имя: <input type="text" name="name" placeholder="Ваш логин">
+    		<br><br>
+    		Email: <input type="Email" name="Email" placeholder="Ваш Email" required>
+    		<br><br>
+    		Пароль: <input type="password" name="psw" placeholder="Ваш пароль" required>
+    		<br> <br>
+    		Подтверждение пароля: <input type="password" name="psw_repeat" placeholder="Повторите пароль" required>
+    		<br><br>
+    		<input type="checkbox" name="agree_check" required> Согласен с порядком обработки персональных данных
+    		<br><br>
+    		<button type="submit" name="reg">Зарегистрироваться</button>
+    	 </fieldset>
+    	</form> 
+    </main>
+ </body>
+</html>
