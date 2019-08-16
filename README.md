@@ -11,3 +11,7 @@
 ## Формы. Ссылочные протоколы
 #### Задание 1. [Форма для заказа пиццы](https://jsfiddle.net/EhlisN/0gnr3d58/)
 #### Задание 2. [Форма отзыва на товар](https://jsfiddle.net/EhlisN/234f5gh8/)
+
+## Продвинутый HTML
+#### Задание 1. [Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-advance%201)
+#### Задание 2. [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-advance%202)
