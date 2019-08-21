@@ -15,3 +15,6 @@
 ## Продвинутый HTML
 #### Задание 1. [Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-advance%201)
 #### Задание 2. [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/EhlisNG/tree/master/HTML/HTML-advance%202)
+
+## Основы CSS
+#### Задание [Реферат](https://jsfiddle.net/EhlisN/967fpmj2/)
