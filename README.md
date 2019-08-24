@@ -18,3 +18,7 @@
 
 ## Основы CSS
 #### Задание [Реферат](https://jsfiddle.net/EhlisN/967fpmj2/)
+
+## CSS. Позиционирование
+#### Задание 1. [Индикаторы загрузки](https://jsfiddle.net/EhlisN/vbpgLt0w/)
+#### Задание 2. [Модальное окно](https://jsfiddle.net/EhlisN/dtyr13ng/)
