@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Форма заказа</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>
+			Technostore
+		</h1>
+		<img src="img.png" alt="Logo Technostore">
+		<nav class="clearfix">
+		  <ul>
+		  	<li class="menu"> Бытовая техника
+		  		<ul class="submenu" >
+		  			<li>
+		  				<a href="#">Стиральные машины
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Пылесосы
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Швейные, вышивальные машины
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Утюги
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Электровеники
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Сушилки для обуви
+		  				</a>
+		  			</li>
+		  		</ul>
+		  	</li>
+		  	<li class="menu"> Техника для кухни
+		  		<ul class="submenu">
+		  			<li>
+		  				<a href="#">Холодильники
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Кухонные плиты
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Морозильники
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Настольные плиты
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Ростеры, мини-печи
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Вытяжки
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Микроволновые печи
+		  				</a>
+		  			</li>
+		  		</ul>
+		  	</li>
+		  	<li class="menu"> Компьютерная техника
+		  		<ul class="submenu">
+		  			<li>
+		  				<a href="#">Ноутбуки
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Планшеты
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Компьютеры, моноблоки
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Игровые приставки
+		  				</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Серверное оборудование
+		  				</a>
+		  			</li>
+		  		</ul>
+		  	</li>
+		  	<li class="menu">Корзина
+		  	</li>
+		  </ul>
+		</nav>
+	</header>
+    <main>
+        <form action="#" method="GET">
+    	    <h2>Оформление заказа
+		    </h2>
+		    <div class="item">
+		   	  <label>Имя и Фамилия
+		   	  </label>
+	    	  <input type="text" name="user name" value="user name" placeholder="Иван Иванов">
+		    </div>
+		    <div class="item">		
+		      <label>Номер телефона
+		      </label>
+              <input type="tel" name="phone number" value="phone number" placeholder="+375 29 555 55 55">
+		    </div>
+		    <div class="item">		  
+		      <label>E-mail
+		      </label>
+		      <input type="email" name="email" value="email" placeholder="IvanovI@email.com">
+		    </div>
+		    <div class="item">		 
+		      <label>Способ доставки:
+		      </label>
+		      <div>
+		      	<input class="pickup" type="radio" name="delivery method" value="pickup">Самовывоз со склада по адресу г.Минск ул.Кабушкина д.92
+		        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.244069027785!2d27.633541515857747!3d53.85630778008905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd203cd6d1cd7%3A0x17a58f418cd694e!2z0YPQu9C40YbQsCDQmtCw0LHRg9GI0LrQuNC90LAgOTIsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1567538706763!5m2!1sru!2sby" name="pickup address">
+		        </iframe>    
+		      </div>
+		      <div>
+		      	<input class="delivery" type="radio" name="delivery method" value="delivery">Курьером по Минску		  
+			    <div class="address">
+			      <label>Адрес доставки:
+			      </label>
+			      <input type="text" name="address" value="delivery address" placeholder="Ваш адрес">
+			    </div>
+			   </div>    
+		    </div>
+		    <div class="item">
+		      <label class="comment">Комментарий к заказу
+		      </label>
+		      <textarea cols="40" rows="5" placeholder="Дополнительные сведения" name="additional information"></textarea>
+		    </div>
+		    <div class="item">		  
+		      <input class="accept" type="checkbox" name="accept" value="accept"> Я прочитал и согласен с 
+		      <a href="#"> условиями доставки
+		      </a>		  
+		      <button class="order" type="button" value="order">Заказать
+		      </button>
+		    </div>
+    	</form>  
+    </main>
+    <footer>
+    	<h3>Контактная информация:
+    	</h3>
+    	<p>Время работы: Пн-Пт 8.00-22.00 Сб,Вс 9.00-18.00
+    	</p>
+    	<p>Адрес офиса: г. Минск ул. Кабушкина д. 92
+    	</p>
+    	<p>Телефон: +375 33 556 55 66
+    	</p>
+    	<p>Skype: technostore
+    	</p>
+    </footer>
+</body>
+</html>
