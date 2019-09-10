@@ -1,0 +1,30 @@
+.icon [type="checkbox"] {
+	display: none;
+}
+
+.icon .icon_unliked {
+	display: inline-block;
+	position: absolute;
+	background-image: url("heart.png");
+	background-position:  -10px -10px;
+	width: 128px;
+	height: 128px;
+}
+
+.icon_unliked:hover {
+    background-position: -158px -10px;
+}
+
+.icon :checked ~ .icon_liked {
+	display: inline-block;
+	position: absolute;
+	z-index: 10;
+	background-image: url("heart.png");
+	background-position: -158px -158px;
+	width: 128px;
+	height: 128px;
+}
+
+.icon :checked ~ .icon_liked:hover {
+	background-position: -10px -158px;
+}
