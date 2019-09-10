@@ -28,3 +28,6 @@
 
 ## Свойства видимости. Именование классов. БЭМ
 #### Практика [HTML5-формы и их стилизация](https://jsfiddle.net/EhlisN/8r3u56xv/)
+
+## Изображения. Шрифты и иконки
+#### Задания по теме [CSS. Стилистическое оформление элементов](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Images%2C%20fonts%2C%20icons)
