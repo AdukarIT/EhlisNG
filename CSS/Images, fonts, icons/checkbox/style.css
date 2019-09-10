@@ -1,0 +1,15 @@
+.icon [type="checkbox"] {
+	display: none;
+}
+
+.icon-check {
+	display: inline-block;
+	background-image: url("check.png");
+	background-position: -10px -10px;
+	width: 128px;
+	height: 128px;
+}
+
+.icon :checked ~ .icon-check {
+	background-position: -158px -10px;
+}
