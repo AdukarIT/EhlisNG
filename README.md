@@ -31,3 +31,6 @@
 
 ## Изображения. Шрифты и иконки
 #### Задания по теме [CSS. Стилистическое оформление элементов](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Images%2C%20fonts%2C%20icons)
+
+## Flexbox
+#### Задание 1. [Header для лэндингакурсов подготовки к ЦТ от Адукар](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Flexbox)
