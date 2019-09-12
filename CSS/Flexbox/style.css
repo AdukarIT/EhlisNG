@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+}
+
+.main {
+	background-image: linear-gradient( rgba(77, 64, 64, 0.8), rgba(0, 0, 0, 0.5) ), url(main.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	font-family: Arial,sans-serif;
+	color: #FFF;
+	min-height: 630px;
+}
+
+.information {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: baseline;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+
+.information__logo {
+	display: flex;
+	align-self: center;
+}
+
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.information__menu_link:hover {
+    text-decoration: underline;
+}
+
+.information__contact_call {
+	font-weight: 400;
+	margin-right: 40px;
+}
+
+.information__contact {
+	display: flex;
+	align-items: center;
+}
+
+.information__contact_link-vk, .information__contact_link-instagram, .information__contact_link-telegram {
+	margin: 4px;
+}
+
+.title {
+    margin: 50px 100px;
+}
+
+h1 {
+	font-size: 50px;
+	width: 50%;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.skills__description {
+     width: 25%;
+     display: flex;
+     align-items: flex-start;
+     font-family: "Arial Narrow", sans-serif;
+     font-size: 20px;
+}
+ 
+.skills__description__icon {
+    width: 80px;
+    margin-right: 15px;
+}
+
+.bonus {
+    text-align: center;
+    margin: 40px;
+}
+
+.free-lesson {
+    text-align: center;
+}
+
+.free-lesson_link {
+	background-color: #CD5C5C;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 40px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
