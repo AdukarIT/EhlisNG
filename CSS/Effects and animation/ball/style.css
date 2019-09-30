@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+}
+
+div {
+	border: 2px solid red;
+	width: 1350px;
+	height: 100px;
+	margin: 5px;
+}
+
+img {
+	display: inline-block;
+	width: 100px;
+	transition: 2s ease-out;
+}
+
+label input[type="checkbox"] {
+	display: none;
+}
+
+label input[type="checkbox"]:checked ~ img {
+	transform: translateX(1250px) rotate(2turn);
+
+}

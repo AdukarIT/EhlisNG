@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	width: 66px;
+	height: 135px;
+	overflow: hidden;
+}
+
+img:hover {
+	animation-name: moved;
+	animation-duration: 0.3s;
+	animation-timing-function: steps(7);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes moved {
+	from {transform: translateX(0);}
+	to {transform: translateX(-462px);}
+}
+

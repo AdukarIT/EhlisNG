@@ -1,0 +1,23 @@
+label input[type="checkbox"] {
+	display: none;
+}
+
+span {
+	display: inline-block;
+	background-image: url(like.png);
+	background-repeat: no-repeat;
+	background-position: -54px -5px;
+	background-size: 200%;
+	width: 64px;
+	height: 64px;
+}
+
+input:checked + span {
+	background-position: 10px -5px;
+	animation: size 2s ease-in-out;
+}
+
+@keyframes size {
+	50% {transform: scale(1.5, 1.5);}
+}
+

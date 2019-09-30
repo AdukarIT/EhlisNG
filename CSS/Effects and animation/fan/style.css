@@ -1,0 +1,12 @@
+div {
+	margin: 100px;
+}
+
+img {
+	width: 100px;
+	transition: 3s ease-in-out;	
+}
+
+img:hover {
+    transform: rotate(3turn);
+}
