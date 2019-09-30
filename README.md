@@ -34,3 +34,13 @@
 
 ## Flexbox
 #### Задание 1. [Header для лэндингакурсов подготовки к ЦТ от Адукар](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Flexbox/Header_Adukar)
+#### Задание 2. [VK](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Flexbox/vk)
+
+## Адаптивная вёрстка
+#### Практика [Burger](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/burger)
+
+## Эффекты. Анимация
+#### Практика [Button](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/button)
+#### Задание 1. [Ball](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/ball)
+#### Задание 2. [Fan](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/fan)
+#### Задание 3. [Sprite](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/sprite)
