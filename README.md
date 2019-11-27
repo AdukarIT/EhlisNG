@@ -45,5 +45,5 @@
 #### Задание 2. [Fan](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/fan)
 #### Задание 3. [Sprite](https://github.com/AdukarIT/EhlisNG/tree/master/CSS/Effects%20and%20animation/sprite)
 
-##Итоговая работа по вёрстке
-####[Brewdog](https://github.com/EhlisN/EhlisN.github.io/tree/master/Project-Brewdog)
+## Итоговая работа по вёрстке
+#### [Brewdog](https://github.com/EhlisN/EhlisN.github.io/tree/master/Project-Brewdog)
