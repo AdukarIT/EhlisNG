@@ -57,3 +57,6 @@
 ## Функции
 #### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Functions)
 #### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Functions)
+
+## Поиск ошибок и отладка кода. Практика
+#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Practice%201)
