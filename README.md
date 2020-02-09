@@ -60,3 +60,7 @@
 
 ## Поиск ошибок и отладка кода. Практика
 #### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Practice%201)
+
+## Массивы
+#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
