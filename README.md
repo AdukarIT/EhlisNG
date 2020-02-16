@@ -64,3 +64,11 @@
 ## Массивы
 #### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
 #### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
+
+## Объекты
+#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Objects)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Objects)
+
+## Встроенные возможности JavaScript
+#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript)
