@@ -173,40 +173,73 @@
 // 8. Напишите функцию, которая возвращает текущий день недели 
 // на русском языке.
 
-function dayOfWeek () {
-	let day = new Date();
-	switch (day.getDay()) {
-		case 0:
-		    console.log("воскресенье");
-		    break;
-		case 1:
-		    console.log("понедельник");
-		    break;  
-		case 2:
-		    console.log("вторник");
-		    break;
-		case 3:
-		    console.log("среда");
-		    break;
-		case 4:
-		    console.log("четверг");
-		    break;
-		case 5:
-		    console.log("пятница");
-		    break;
-		case 6:
-		    console.log("суббота");
-		    break;                      
-		default:
-		    console.log("error");
-	}
-}
+// function dayOfWeek () {
+// 	let day = new Date();
+// 	switch (day.getDay()) {
+// 		case 0:
+// 		    console.log("воскресенье");
+// 		    break;
+// 		case 1:
+// 		    console.log("понедельник");
+// 		    break;  
+// 		case 2:
+// 		    console.log("вторник");
+// 		    break;
+// 		case 3:
+// 		    console.log("среда");
+// 		    break;
+// 		case 4:
+// 		    console.log("четверг");
+// 		    break;
+// 		case 5:
+// 		    console.log("пятница");
+// 		    break;
+// 		case 6:
+// 		    console.log("суббота");
+// 		    break;                      
+// 		default:
+// 		    console.log("error");
+// 	}
+// }
 
-dayOfWeek();
+// dayOfWeek();
 
 // 9. Напишите функцию, которая принимает у пользователя 
 // дату в формате "ДД-ММ-ГГГГ" и, используя функцию из 
 // задачи 8, выдаёт в консоль день недели для этой даты.
+
+// function dayOfWeek () {
+// 	let date = prompt("Введите дату", "ДД-ММ-ГГГГ");
+// 	let arrDate = date.split("-").reverse().join('-');
+// 	let day = new Date(arrDate + "T00:00:00");
+// 	switch (day.getDay()) {
+// 		case 0:
+// 		    console.log("воскресенье");
+// 		    break;
+// 		case 1:
+// 		    console.log("понедельник");
+// 		    break;  
+// 		case 2:
+// 		    console.log("вторник");
+// 		    break;
+// 		case 3:
+// 		    console.log("среда");
+// 		    break;
+// 		case 4:
+// 		    console.log("четверг");
+// 		    break;
+// 		case 5:
+// 		    console.log("пятница");
+// 		    break;
+// 		case 6:
+// 		    console.log("суббота");
+// 		    break;                      
+// 		default:
+// 		    console.log("error");
+// 	}
+// }
+
+// console.log(dayOfWeek());
 
 
 // 10. Примите у пользователя день его рождения в формате 
@@ -216,7 +249,20 @@ dayOfWeek();
 // пользователь отметит ближайший 1000-дневный юбилей 
 // (например, 11000 дней).
 
+function numberOfDay (day) {
+	//let day = prompt("Введите свой день рождения", "ДД-ММ-ГГГГ");
+	let dayOfBday = day.split("-").reverse();
+	let nowYear = new Date();
+	let newBday = nowYear.getFullYear() + "-" + dayOfBday[1] + "-" + dayOfBday[2] + "T00:00:00";
+	let numberOfDay = Math.ceil((Date.parse(newBday) - Date.now()) / 24 / 60 / 60 / 1000);
 
+
+
+	console.log(numberOfDay);
+
+}
+
+console.log(numberOfDay("16-06-1986"));
 // 11. Напишите функцию, которая принимает число, проверяет, 
 // является ли оно квадратом целого числа. Если это так, 
 // функция возвращает квадратный корень исходного числа; 
