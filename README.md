@@ -51,24 +51,28 @@
 ## JavaScript
 
 ## Операторы. Циклы
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B.%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B)
-#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B.%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B.%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B.%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B/HW.js)
 
 ## Функции
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Functions)
-#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Functions)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Functions/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Functions/HW.js)
 
 ## Поиск ошибок и отладка кода. Практика
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Practice%201)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Practice%201/practice.js)
 
 ## Массивы
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
-#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Array)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Array/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Array/HW.js)
 
 ## Объекты
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Objects)
-#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Objects)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Objects/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/Objects/HW.js)
 
 ## Встроенные возможности JavaScript
-#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript)
-#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript)
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JavaScript/HW.js)
+
+## Продвинутый JavaScript
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D0%B9%20JavaScript/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D0%B9%20JavaScript/HW.js)
