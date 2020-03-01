@@ -76,3 +76,7 @@
 ## Продвинутый JavaScript
 #### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D0%B9%20JavaScript/practice.js)
 #### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D0%B9%20JavaScript/HW.js)
+
+## DOM. Работа со страницей
+#### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/DOM/practice.js)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/DOM/HW.js)
