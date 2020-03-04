@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Events</title>
+	<meta charset="utf-8">
+	<style>
+		#cat {
+			width: 450px;
+		}
+
+		.bird {
+			width: 160px;
+			height: 120px;
+			/*opacity: 1;	*/
+			/*background-color: rgba(0, 0, 0, 0, .5);	*/
+		}
+
+		#box {
+		    position: relative;			
+			height: 400px;
+			background-color: #E6E6FA;
+		}
+
+		#smallImg {
+			display: flex;
+			justify-content: space-between;	
+		}
+
+		#bigImg {
+			display: none;
+			position: absolute;
+			z-index: 99;
+			width: 480px;
+			height: 360px;
+			top: 10px;
+			left: calc((100% - 480px) / 2);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input id="text" type="text">
+		<br>
+		<input id="btn" type="button" name="btn" value="copy">
+	</div>
+	<hr>
+	<table>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>	
+	<input id="bordered" type="radio" value="bordered" name="radio">bordered
+	<input id="striped" type="radio" value="striped" name="radio">striped
+	<input id="highlight" type="radio" value="highlight" name="radio">highlight
+	<hr>
+	<input id="btn2" type="button" value="Button">
+	<input id="btn3" type="button" value="Cancel">
+	<hr>
+	<div class="elem">Element 1</div>
+	<p class="elem">Element 2</p>
+	<button class="elem">Element 3</button>
+	<br>
+	<a href="#" class="elem">Element 4</a>
+	<hr>
+	<img id="cat" src="cat1.png" alt="cat">
+	<hr>
+	<div id="box">
+		<div id="smallImg">
+			<img class="bird" src="bird1.png" alt="bird">
+			<img class="bird" src="bird2.png" alt="bird">
+			<img class="bird" src="bird3.png" alt="bird">
+			<img class="bird" src="bird4.png" alt="bird">
+			<img class="bird" src="bird5.png" alt="bird">
+			<img class="bird" src="bird6.png" alt="bird">
+		</div>	
+		<img id="bigImg" alt="bird">
+	</div>
+	<script src="HW.js"></script>
+</body>
+</html>
