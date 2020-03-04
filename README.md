@@ -80,3 +80,8 @@
 ## DOM. Работа со страницей
 #### [Практика](https://github.com/AdukarIT/EhlisNG/blob/master/JS/DOM/practice.js)
 #### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/blob/master/JS/DOM/HW.js)
+
+## События. Координаты на странице
+#### [Практика](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Events)
+#### [Домашнее задание](https://github.com/AdukarIT/EhlisNG/tree/master/JS/Events)
+
