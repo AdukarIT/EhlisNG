@@ -249,20 +249,21 @@
 // пользователь отметит ближайший 1000-дневный юбилей 
 // (например, 11000 дней).
 
-function numberOfDay (day) {
-	//let day = prompt("Введите свой день рождения", "ДД-ММ-ГГГГ");
-	let dayOfBday = day.split("-").reverse();
-	let nowYear = new Date();
-	let newBday = nowYear.getFullYear() + "-" + dayOfBday[1] + "-" + dayOfBday[2] + "T00:00:00";
-	let numberOfDay = Math.ceil((Date.parse(newBday) - Date.now()) / 24 / 60 / 60 / 1000);
+// function numberOfDay (day) {
+// 	//let day = prompt("Введите свой день рождения", "ДД-ММ-ГГГГ");
+// 	let dayOfBday = day.split("-").reverse();
+// 	let nowYear = new Date();
+// 	let newBday = nowYear.getFullYear() + "-" + dayOfBday[1] + "-" + dayOfBday[2] + "T00:00:00";
+// 	let numberOfDay = Math.ceil((Date.parse(newBday) - Date.now()) / 24 / 60 / 60 / 1000);
 
 
 
-	console.log(numberOfDay);
+// 	console.log(numberOfDay);
 
-}
+// }
 
-console.log(numberOfDay("16-06-1986"));
+// console.log(numberOfDay("16-06-1986"));
+
 // 11. Напишите функцию, которая принимает число, проверяет, 
 // является ли оно квадратом целого числа. Если это так, 
 // функция возвращает квадратный корень исходного числа; 
@@ -272,3 +273,39 @@ console.log(numberOfDay("16-06-1986"));
 // ошибки и выводя в консоль сообщения и о них, и об успешных 
 // результатах. Массив должен быть пройден до конца, несмотря 
 // на ошибки!
+
+let arr = [];
+
+function newArr(len, min, max) {
+	for (let i = 0; i < len; i++) {
+		arr[i] = Math.floor(Math.random() * (max - min + 1)+ min);
+	}
+	return arr;
+}
+
+console.log(newArr(20, 1, 50));
+
+function squareNumber(num) {
+	let sqrtNum = Math.sqrt(num);
+
+	if(sqrtNum == Math.round(sqrtNum)) {
+		console.log(sqrtNum + " - квадратный корень числа " + num);
+		return sqrtNum;
+	} else {
+		throw new Error(num + " не является квадратом целого числа");
+	}
+}
+
+function checkSquareArr(arr) {
+	for(let i = 0; i < arr.length; i++) {
+		try {
+			squareNumber(arr[i]);
+		} catch(Error) {
+			console.log(Error.message);
+		} finally {
+			console.log("проверка прошла успешно")
+		}	
+	}		
+}
+
+checkSquareArr(arr);
