@@ -1,0 +1,324 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	border: none;
+	color: #000;
+}
+
+.clearfix {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+header {
+	position: fixed;
+	height: 80px;
+	background-image: url(bgtop.png);
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #B22222;
+	padding-right: 20px;
+
+}
+
+h1 {
+	display: inline-block;
+	height: 80px;
+	width: 150px;
+	font-family: "URW Chancery L", cursive;
+	font-size: 26px;
+	color: #000;
+	background-color: #B22222;
+	opacity: 0.8;
+	padding: 5px 15px;
+	border-right: 2px solid #000;
+}
+
+nav {
+	width: calc(100% - 200px);
+}
+
+.navigation {
+	height: 40px;
+	font-size: 20px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation li {
+	background-color: #B22222;
+	padding: 2px 10px;
+	border: 2px solid #000;
+	border-top: none;
+	border-left: none;
+	opacity: 0.8;
+}
+
+
+
+#search {
+	height: 40px;
+	width: 100%;
+}
+
+.search_info {
+	width: 500px;
+	height: 30px;
+	opacity: 0.7;
+	padding: 10px;
+	font-weight: 700;
+	border: 1px solid #B22222;
+}
+
+
+
+
+
+
+
+
+
+
+main {
+	padding-top: 80px;
+	background-color: #FFEFD5;
+	width: 100%;
+}
+
+#main_page_autor {
+
+}
+
+.info_writer {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	border: 2px solid #B22222;
+	margin: 2px;
+}
+
+.info_writer_name {
+	display: inline-block;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	padding: 10px;
+}
+
+.info_writer_photo {
+	display: inline-block;
+	width: 250px;
+	height: 70%;
+	border: 1px solid #B22222;
+
+}
+
+.info_writer_period {
+	display: inline-block;
+	width: 100%;
+	height: 10%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.detailsBtn {
+	display: inline-block;
+	width: 150px;
+	height: 7%;
+	margin-bottom: 3%;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: 700;
+	background-color: #FA8072;
+	border: 1px solid #B22222;
+	padding: 5px;
+}
+
+/*@media (max-width: 768px)*/
+
+@media (min-width: 661px) {
+	.info_writer {
+		display: inline-block;
+		width: calc((100% - 8px) / 2);
+	}
+}
+
+
+@media (min-width: 931px) {
+	.info_writer {
+		width: calc((100% - 12px) /3);
+	}
+}
+
+
+
+
+#main_page_stihi {
+	border-bottom: 2px solid #B22222;
+	text-align: center;
+}
+
+.theme {
+	width: 100%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #B22222;
+	font-size: 24px;
+	padding: 20px;
+}
+
+.theme_info {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+}
+
+.period {
+	width: 100%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #B22222;
+	font-size: 24px;
+	padding: 20px;
+}
+
+.period_info {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+}
+
+@media (min-width: 661px) {
+
+	#main_page_stihi {
+		display: flex;
+		justify-content: space-around;
+		text-align: start;
+	}
+
+	.theme {
+		width: 50%;
+	}
+
+	.period {
+		width: 50%;
+	}
+}
+
+
+
+
+.main_page_autor_about {
+}
+
+#info_writer_about {
+	font-family: "URW Chancery L", cursive;
+	font-size: 20px;
+	padding: 15px;
+}
+
+#info_writer_about h3 {
+	font-size: 30px;
+}
+
+#info_writer_about img {
+	display: block;
+	margin: 0 auto;
+}
+
+#info_writer_about span {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+#info_writer_about p {
+	text-indent: 25px;
+}
+
+#info_writer_about a {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	font-size: 20px;
+	color: #B22222;
+}
+
+
+
+
+#main_page_stihi_about
+
+#info_stihi_about {
+	font-family: "URW Chancery L", cursive;
+	font-size: 20px;
+	padding: 15px;
+}
+
+#info_stihi_about h3 {
+	font-size: 30px;
+}
+
+#info_stihi_about img {
+	padding: 20px;
+}
+
+#info_stihi_about span {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+#info_stihi_about pre {
+
+}
+
+
+
+
+
+
+footer {
+	width: 100%;
+	padding: 15px;
+	background-color: #FFEFD5;
+	border-top: 1px solid #B22222;
+}
+
+footer span {
+	display: inline-block;
+	width: 100%;
+}
+
+/*@media (min-width: 931px) {
+
+	footer span {
+		display: inline-block;
+		width: 50%;
+	}
+}*/
+
+
+.content {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.searchResultsWrapper {
+	position: absolute;
+	z-index: 2;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+}
+.searchResultsWrapper > .resultItem {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 3px;
+}
